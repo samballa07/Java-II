@@ -1,0 +1,40 @@
+package tests;
+
+import org.junit.*;
+import static org.junit.Assert.*;
+import linkedStr.LinkedStr;
+
+public class StudentTests {
+
+	@Test
+	public void testDelete() {
+		LinkedStr str = new LinkedStr();
+		str.insert(0, 'a');
+	    str.insert(1, 'm');
+	    str.insert(2, 'b');
+	    str.insert(3, 'a');
+	    str.insert(4, 'l');
+	    str.insert(5, 'l');
+	    str.insert(6, 'a');
+	    
+	    str.deleteCharsAt(3, 15);
+	    assertEquals("amb", TestUtilities.toString(str));
+
+	}
+
+	@Test
+	public void testDelete1() {
+		LinkedStr str = new LinkedStr();
+		str.insert(0, 'a');
+	    str.insert(1, 'm');
+	    str.insert(2, 'b');
+	    str.insert(3, 'a');
+	    str.insert(4, 'l');
+	    str.insert(5, 'l');
+	    str.insert(6, 'a');
+	    
+	    str.deleteCharsAt(0, 2);
+	    assertEquals("balla", TestUtilities.toString(str));
+
+	}
+}

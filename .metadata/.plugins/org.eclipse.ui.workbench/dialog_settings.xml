@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="InstallationDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="-119"/>
+		<item key="DIALOG_Y_ORIGIN" value="-210"/>
+		<item key="DIALOG_WIDTH" value="773"/>
+		<item key="DIALOG_HEIGHT" value="635"/>
+		<item key="DIALOG_FONT_NAME" value="1|.AppleSystemUIFont|11.0|0|COCOA|1|.AppleSystemUIFont"/>
+	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item key="DIALOG_X_ORIGIN" value="271"/>
+		<item key="DIALOG_Y_ORIGIN" value="41"/>
+	</section>
+	<section name="ImportExportAction">
+		<item key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID" value="org.eclipse.ui.wizards.import.ZipFile"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="org.eclipse.ui.Basic"/>
+		</list>
+	</section>
+	<section name="ZipFileImportWizard">
+		<item key="WizardZipFileResourceImportPage1.STORE_OVERWRITE_EXISTING_RESOURCES_ID" value="false"/>
+		<list key="WizardZipFileResourceImportPage1.STORE_SOURCE_NAMES_ID">
+			<item value="/Users/sethamballa/Downloads/Project6SecretTests (2).zip"/>
+			<item value="/Users/sethamballa/Downloads/Project6SecretTests (1).zip"/>
+			<item value="/Users/sethamballa/Downloads/Project4SecretTests.zip"/>
+			<item value="/Users/sethamballa/Downloads/Project3SecretTests.zip"/>
+			<item value="/Users/sethamballa/Downloads/Project1SecretTests.zip"/>
+		</list>
+	</section>
+</section>

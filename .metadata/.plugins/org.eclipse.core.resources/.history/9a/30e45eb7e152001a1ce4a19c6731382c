@@ -1,0 +1,20 @@
+package employeeManager;
+
+public class Salaried extends Employee{
+	
+	private String firstName;
+	private String lastName;
+	private double salary;
+	
+	public Salaried(String firstIn, String lastIn, double salaryIn) {
+		super(firstIn, lastIn, salaryIn);
+	}
+
+	
+	public boolean equals(Salaried other) {
+		if(firstName.equals(other.firstName) && lastName.equals(other.lastName)) {
+			return true;
+		}
+		return false;
+	}
+}

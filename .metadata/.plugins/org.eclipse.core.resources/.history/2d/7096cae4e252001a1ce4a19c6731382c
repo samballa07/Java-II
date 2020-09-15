@@ -1,0 +1,31 @@
+package employeeManager;
+
+public class Employee {
+	
+	private String firstName;
+	private String lastName;
+	private double salary;
+	
+	public Employee(String firstIn, String lastIn, double salaryIn) {
+		firstName = firstIn;
+		lastName = lastIn;
+		salary = salaryIn;
+	}
+	
+	public boolean equals(Employee other) {
+		if (firstName.equals(other.firstName) && 
+			lastName.equals(other.lastName)) {
+			System.out.print("in employee");
+			return true;
+		}
+		return false;
+	}
+	
+	public String getFullName() {
+		String name = firstName + " " + lastName;
+		return name;
+	}
+
+	
+
+}

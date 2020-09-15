@@ -1,0 +1,21 @@
+package employeeManager;
+
+public class Commissioned extends Employee{
+
+	private String firstName;
+	private String lastName;
+	private double salary;
+	
+	public Commissioned(String firstIn, String lastIn, double salaryIn) {
+		super(firstIn, lastIn, salaryIn);
+	}
+	
+	
+	public boolean commEquals(Commissioned other) {
+		if(firstName.equals(other.firstName) && lastName.equals(other.lastName)) {
+			return true;
+		}
+		return false;
+	}
+	
+}
